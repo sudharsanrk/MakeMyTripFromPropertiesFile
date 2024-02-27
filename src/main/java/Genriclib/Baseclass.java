@@ -40,7 +40,8 @@ public class Baseclass
 	@BeforeMethod
 	public void OpenApp() 
 	{
-		WebDriverManager.chromedriver().setup();
+	
+		 WebDriverManager.chromedriver().clearDriverCache().setup();
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

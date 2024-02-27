@@ -5,9 +5,10 @@
     <classes>
       <class name="Scripts.TestCase1">
         <methods>
-          <include name="OpenApp"/>
+          <include name="closeapp"/>
+          <include name="as"/>
           <include name="tc1"/>
-          <include name="Closeapp"/>
+          <include name="bs"/>
         </methods>
       </class> <!-- Scripts.TestCase1 -->
     </classes>
